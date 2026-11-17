@@ -1,0 +1,11 @@
+.venv/
+work/*
+!work/.keep
+archive/
+input/*
+!input/.keep
+output/*
+!output/.keep
+tests/sample_*
+__pycache__/
+.DS_Store

@@ -1,0 +1,7 @@
+{
+ "_example": "Intervalli di pagine PDF per capitolo. Compilato al passo 2 della skill (scripts/manga/chapters_guess.py) e confermato dal redattore.",
+ "folio_offset": 0,
+ "chapters": [
+  {"id": "cap1", "title": "Cap. 1", "first": 1, "last": 40}
+ ]
+}

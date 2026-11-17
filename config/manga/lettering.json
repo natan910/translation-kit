@@ -1,0 +1,35 @@
+{
+ "render_dpi": 200,
+ "preview_width_px": 700,
+ "it_font_vs_jp_glyph": 0.75,
+ "char_width_em": 0.5,
+ "line_height_em": 1.15,
+ "padding_em": 0.35,
+ "tight_ratio": 0.7,
+ "label_colors": {
+  "text": {
+   "hue_min": 95,
+   "hue_max": 135
+  },
+  "sfx": {
+   "hue_ranges": [
+    [
+     0,
+     10
+    ],
+    [
+     165,
+     180
+    ]
+   ]
+  }
+ },
+ "ignore_red_bottom_fraction": 0.12,
+ "_notes": "Calibrazione del calcolo di capienza. it_font_vs_jp_glyph = corpo del lettering italiano rispetto alla larghezza media di un ideogramma della stessa pagina. Ritoccare dopo il primo confronto con il letterista (vedi README, 'Calibrare la capienza').",
+ "labels_mode": "hand",
+ "_labels_mode": "hand = il redattore numera i testi a mano (blu/rosso); auto = nessuna annotazione, il kit numera i blocchi in ordine di lettura (sperimentale)",
+ "min_font_scale": 0.9,
+ "_min_font_scale": "se il testo entra solo riducendo il corpo fino a questa scala, lo stato è STRETTO (corpo ridotto) invece di LUNGO",
+ "_tight_ratio": "STRETTO quando il testo occupa oltre questa frazione della capienza totale del balloon",
+ "min_lines_for_verdict": 2
+}

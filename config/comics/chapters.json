@@ -1,0 +1,7 @@
+{
+ "auto": true,
+ "folio_offset": 0,
+ "chapters": [
+  {"id": "prova", "title": "Albo di prova", "first": 1, "last": 2}
+ ]
+}

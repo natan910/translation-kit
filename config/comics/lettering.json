@@ -1,0 +1,42 @@
+{
+ "lingua_originale": "fra",
+ "lingua_originale_nome": "francese",
+ "lingua_arrivo_nome": "italiano",
+ "render_dpi": 200,
+ "preview_width_px": 800,
+ "reading_order": "ltr",
+ "labels_mode": "auto",
+ "it_font_vs_source": 1.0,
+ "leading_it": 1.0,
+ "padding_em": 0.15,
+ "tight_ratio": 0.7,
+ "min_font_scale": 0.9,
+ "label_colors": {
+  "text": {
+   "hue_min": 95,
+   "hue_max": 135
+  },
+  "sfx": {
+   "hue_ranges": [
+    [
+     0,
+     10
+    ],
+    [
+     165,
+     180
+    ]
+   ]
+  }
+ },
+ "ignore_red_bottom_fraction": 0.12,
+ "_note": {
+  "lingua_originale": "codice tesseract della lingua di partenza: fra, spa, eng, deu, por, nld, ita… (più lingue: fra+eng)",
+  "reading_order": "ltr = fumetti occidentali; rtl = ordine giapponese (vignette da destra)",
+  "labels_mode": "auto = il kit numera i testi in ordine di lettura e produce le tavole numerate; hand = numeri blu / lettere rosse scritti a mano dal redattore (solo pagine in bianco e nero)",
+  "it_font_vs_source": "corpo del lettering italiano rispetto all'originale (1.0 = stesso corpo). Abbassare se il letterista usa un corpo più piccolo",
+  "leading_it": "interlinea italiana rispetto all'originale"
+ },
+ "_tight_ratio": "STRETTO quando il testo occupa oltre questa frazione della capienza totale del balloon",
+ "min_lines_for_verdict": 1
+}

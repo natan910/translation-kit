@@ -1,0 +1,9 @@
+opencv-python
+numpy
+scipy
+pillow
+openpyxl
+python-docx
+pytesseract
+# solo per creare il fumetto di prova (tests/make_sample.py):
+reportlab
